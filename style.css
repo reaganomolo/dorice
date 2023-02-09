@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    font-family: sans-serif;
+}
+
+.login {
+    width: 280px;
+    height: 370px;
+    background: #000;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.login h1 {
+    background-color: tomato;
+    border-radius: 6px;
+    margin: 0;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.login input {
+    width: 100%;
+    margin-bottom: 18px;
+    border-radius: 4px;
+}
+
+.login p {
+    font-weight: bold;
+    color: tomato;
+    font-style: normal;
+}
